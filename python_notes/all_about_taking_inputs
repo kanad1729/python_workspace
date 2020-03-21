@@ -1,0 +1,21 @@
+
+
+#taking input in single variable default type is string 
+
+x = input("Enter a Value ")
+
+
+#taking int input by casting it into int type
+x = int(input("Enter a integer Value "))
+
+#multi variable input
+x, y = input("Enter two no: ").split(" ")
+
+
+#multi variable input using map func just because of we can typecast as well
+x,y =map(int, input("Enter two no: ").split(" "))
+
+
+#multi variable input using list comprehansion
+x, y = [int(x) for x in input("Enter two value: ").split(" ")]
+

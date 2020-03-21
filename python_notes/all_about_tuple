@@ -1,0 +1,56 @@
+
+
+1] Introduction:
+
+A tuple is an ordered collection of values.
+
+Tuples are a lot like lists:
+
+Tuples are ordered – Tuples maintains a left-to-right positional ordering among the items they contain.
+Accessed by index – Items in a tuple can be accessed using an index.
+Tuples can contain any sort of object – It can be numbers, strings, lists and even other tuples.
+
+except:
+
+Tuples are immutable – you can’t add, delete, or change items after the tuple is defined.
+
+
+2] Create a Tuple:
+
+You can create a tuple by placing a comma-separated sequence of items in parentheses ().
+
+Example:
+
+# A tuple of integers
+T = (1, 2, 3)
+
+# A tuple with mixed datatypes
+T = (1, 'abc', 1.23, True)
+
+# An empty tuple
+T = ()
+>>> type(T)
+<class 'tuple'>
+
+>>> t = (4) #even if sysntax is of tuple still it's will return type as int for that u need to place "," after that see following eg.
+>>> type(t)
+<class 'int'>
+
+>>> a = (4,)
+>>> type(a)
+<class 'tuple'>
+
+#so to create tuple what trully matters that is only " , " if u not specifiey parenthisys still it will work.
+>>> b = 10, 20.3, True, "kanad"
+>>> type(b)
+<class 'tuple'>
+
+
+
+
+
+
+
+
+
+

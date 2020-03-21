@@ -1,0 +1,9 @@
+
+Map() function:
+	- basically map is function in python which takes parameter as fun and iterables, after that it applies a functionn to each item of 		 iterable.
+	- map() Parameter
+	function - map() passes each item of the iterable to this function.
+	iterable iterable which is to be mapped
+
+#add this comment for git testing
+
